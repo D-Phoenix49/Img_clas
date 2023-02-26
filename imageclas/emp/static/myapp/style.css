@@ -1,0 +1,42 @@
+
+
+body{
+    width: 100% ;
+    min-height: 100vh ;
+    display: flex ;
+    justify-content: center;
+    align-content: center;
+}
+
+.box-container{
+    width : 100% ;
+    max-width : 1440px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.box{
+    width : 269px;
+    padding : 15px;
+    min-height : 430px;
+}
+
+.box1{
+    background-color: hsl(31,77%,52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.box2{
+    background-color: hsl(184,100%,22%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.content{
+
+    padding: 10px;
+}
